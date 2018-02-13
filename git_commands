@@ -1,0 +1,21 @@
+git fetch
+
+git log
+
+git log master..origin/master
+-	master -> local commits
+-	origin/master -> github repo commits
+
+git diff xxx..yyy
+-	xxx -> commit id FROM
+-	yyy -> commit id TO
+-	This will show what changes are made to the file/s between these two commits
+
+git merge
+
+git branch <newbranch>
+-	will create a new branch but will not checkout to this branch
+
+git checkout <the_same_new_branch_name_or_existing_branch_name>
+-	will checkout to this branch
+
