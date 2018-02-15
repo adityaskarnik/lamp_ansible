@@ -19,3 +19,8 @@ git branch <newbranch>
 git checkout <the_same_new_branch_name_or_existing_branch_name>
 -	will checkout to this branch
 
+git reset <commit-id>
+-	will reset your changes to the commit id provided and without the code changes
+
+git reset --hard <commit-id>
+-	will reset all the code changes to the commit id changes
